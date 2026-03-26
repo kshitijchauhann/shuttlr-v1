@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import ForgotPassword from "./pages/ForgotPassword";
-import Dashboard from "./pages/Dashboard";
+import Home from "./pages/Home";
 import Profile from "./pages/Profile";
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>

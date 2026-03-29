@@ -4,6 +4,7 @@ import SignUp from "./pages/SignUp";
 import ForgotPassword from "./pages/ForgotPassword";
 import Home from "./pages/Home";
 import Profile from "./pages/Profile";
+import View from "./pages/View";
 const App = () => {
   return (
     <BrowserRouter>
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/home" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/view" element={<View />} />
       </Routes>
     </BrowserRouter>
   );
